@@ -92,7 +92,6 @@ function Dashboard({ user, setUser, reports, setReports, setPage }) {
           <span>👤 {user.name}</span>
         </header>
 
-        {/* POST FORM */}
         <form className="report-form" onSubmit={handleAddReport}>
           <input
             type="text"
